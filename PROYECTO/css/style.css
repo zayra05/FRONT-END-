@@ -16,14 +16,14 @@ body {
 }
 
 a {
-  color: #007bff;
+  color: #2e3192;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #0b6bd3;
+  color: #2e3192;
   outline: none;
   text-decoration: none;
 }
@@ -50,7 +50,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #007bff;
+  background: #270d6e;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -88,7 +88,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #007bff;
+  border-top: 6px solid #2e3192;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -190,15 +190,18 @@ h6 {
 
 #intro .intro-info h2 {
   color: #d34e24;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   font-size: 70px;
   font-weight: 700;
+  font-family:'heaters';
+  letter-spacing: 15px;
 }
 
 #intro .intro-info h2 span {
   color: #fff;
   font-size: 80px;
   text-decoration:underline;
+  font-family: 'heaters';
 }
 
 #intro .intro-info .btn-get-started,
@@ -216,8 +219,8 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started {
-  background: #270d6e;
-  border: 2px solid #270d6e;
+  background: #2e3192;
+  border: 2px solid #2e3192;
   color: #fff;
 }
 
@@ -232,8 +235,8 @@ h6 {
 }
 
 #intro .intro-info .btn-services:hover {
-  background: #270d6e;
-  border-color: #270d6e;
+  background: #2e3192;
+  border-color: #2e3192;
   color: #fff;
 }
 
@@ -264,7 +267,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: #2e3192;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -275,73 +278,10 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: #2e3192;
   text-decoration: none;
 }
 
-.main-nav .drop-down ul {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: calc(100% + 30px);
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  padding: 10px 0;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: ease all 0.3s;
-}
-
-.main-nav .drop-down:hover > ul {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
-}
-
-.main-nav .drop-down li {
-  min-width: 180px;
-  position: relative;
-}
-
-.main-nav .drop-down ul a {
-  padding: 10px 20px;
-  font-size: 13px;
-  color: #004289;
-}
-
-.main-nav .drop-down ul a:hover,
-.main-nav .drop-down ul .active > a,
-.main-nav .drop-down ul li:hover > a {
-  color: #007bff;
-}
-
-.main-nav .drop-down > a:after {
-  content: "\f107";
-  font-family: FontAwesome;
-  padding-left: 10px;
-}
-
-.main-nav .drop-down .drop-down ul {
-  top: 0;
-  left: calc(100% - 30px);
-}
-
-.main-nav .drop-down .drop-down:hover > ul {
-  opacity: 1;
-  top: 0;
-  left: 100%;
-}
-
-.main-nav .drop-down .drop-down > a {
-  padding-right: 35px;
-}
-
-.main-nav .drop-down .drop-down > a:after {
-  content: "\f105";
-  position: absolute;
-  right: 15px;
-}
 
 /* Mobile Navigation */
 
@@ -379,30 +319,6 @@ h6 {
   text-decoration: none;
 }
 
-.mobile-nav .drop-down > a:after {
-  content: "\f078";
-  font-family: FontAwesome;
-  padding-left: 10px;
-  position: absolute;
-  right: 15px;
-}
-
-.mobile-nav .active.drop-down > a:after {
-  content: "\f077";
-}
-
-.mobile-nav .drop-down > a {
-  padding-right: 35px;
-}
-
-.mobile-nav .drop-down ul {
-  display: none;
-  overflow: hidden;
-}
-
-.mobile-nav .drop-down li {
-  padding-left: 20px;
-}
 
 .mobile-nav-toggle {
   position: fixed;
@@ -421,7 +337,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #004289;
+  color: #2e3192;
 }
 
 .mobile-nav-overly {
@@ -481,7 +397,7 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #8951ff26;
+  background: #4d53f241;
 }
 
 /* About Us Section
@@ -489,7 +405,7 @@ h6 {
 
 #about {
   background: #fff;
-  padding: 60px 0;
+  padding: 104px 0;
 }
 
 #about .about-container .background {
@@ -497,7 +413,7 @@ h6 {
 }
 
 #about .about-container .content {
-  background: #fff;
+  background: #ffffff00;
 }
 
 #about .about-container .title {
@@ -549,17 +465,17 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 60%;
-  border: 2px solid #4c23a4;
+  border: 2px solid #2e3192;
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #4c23a4;
+  color: #2e3192;
   font-size: 30px;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #4c23a4;
+  background: #2e3192;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -570,8 +486,11 @@ h6 {
 #about .about-container .icon-box .title {
   margin-left: 80px;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   font-size: 18px;
+  padding-left: 10px;
+  font-weight: 400;
+  
 }
 
 #about .about-container .icon-box .title a {
@@ -591,6 +510,7 @@ h6 {
   margin-left: 80px;
   color: #283d50;
   font-weight: bold;
+
 }
 
 /* Services Section
@@ -645,7 +565,7 @@ h6 {
 }
 
 #services .box:hover .title a {
-  color: #8b32ff;
+  color: #3c42ff;
 }
 
 #services .description {
@@ -665,7 +585,7 @@ h6 {
 }
 #why-us {
   padding: 60px 0;
-  background: #4c23a4;
+  background: #2e3192;
 }
 
 #why-us .section-header h3,
@@ -674,77 +594,65 @@ h6 {
    color: #fff;
    font-family: 'heaters';
    
+   
 }
-#why-us .descriptionContact {
-  font-size: 20px;
+
+.carita { 
+width: 50px;
+
+}
+#why-us .descriptionContact p {
+  font-size: 16px;
   font-family: "source code pro", monospace;
-  color: #f1e7ff;
+  color: #ffffff;
+  margin: 60px;
+  background: #4338a600;
+  padding: 13px;
+  padding-right: 32px;
+  margin-top: -5px;
   
 }
-#why-us .card {
-  background: #00458f;
-  border-color: #00458f;
+#why-us .box {
+  padding: 30px;
+  position:relative;
+  overflow:hidden;
   border-radius: 10px;
-  margin: 0 15px;
-  padding: 15px 0;
-  text-align: center;
-  color: #fff;
-  transition: 0.3s ease-in-out;
-  height: 100%;
+  margin: 0 10px 40px 10px;
+  transition: all 0.3s ease-in-out;
 }
 
-#why-us .card:hover {
-  background: #003b7a;
-  border-color: #003b7a;
+
+#why-us .box:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  }
+
+
+    
+#why-us .logoministerio {
+  margin-right: -19px;
+  padding: 9px;
+  margin-top: -6px;
 }
 
-#why-us .card i {
-  font-size: 48px;
-  padding-top: 15px;
-  color: #bfddfe;
+    
+
+#why-us .logoarg4 { 
+
+  padding: 9px;
+  margin-left: 65px;
+  margin-top: 5px;
+
 }
 
-#why-us .card h5 {
-  font-size: 22px;
-  font-weight: 600;
-}
+  #why-us .bbb {
+    padding: 12px;
+    padding-left: 100px;
+    margin-left: 0;
+    
+  
+  }
 
-#why-us .card p {
-  font-size: 15px;
-  color: #d8eafe;
-}
-
-#why-us .card .readmore {
-  color: #fff;
-  font-weight: 600;
-  display: inline-block;
-  transition: 0.3s ease-in-out;
-  border-bottom: #00458f solid 2px;
-}
-
-#why-us .card .readmore:hover {
-  border-bottom: #fff solid 2px;
-}
-
-#why-us .counters {
-  padding-top: 40px;
-}
-
-#why-us .counters span {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 48px;
-  display: block;
-  color: #fff;
-}
-
-#why-us .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  color: #cce5ff;
-}
 
 
 /* Contact Section
@@ -754,6 +662,7 @@ h6 {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 0;
   overflow: hidden;
+  background-color: #2e3192;
 }
 
 #contact .section-header {
