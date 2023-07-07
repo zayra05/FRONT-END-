@@ -429,6 +429,7 @@ h6 {
 
 #about .about-container p {
   line-height: 26px;
+  
 }
 
 #about .about-container p:last-child {
@@ -603,12 +604,12 @@ h6 {
   background: #4338a600;
   padding: 13px;
   padding-right: 32px;
-  margin-top: -5px;
+  margin-top: -115px;
   
 
 }
 #why-us .descriptionContact p {
-  font-size: 16px;
+  font-size: 26px;
   font-family: "source code pro", monospace;
   color: #ffffff;
   margin: 77px;
@@ -616,21 +617,39 @@ h6 {
   padding: 13px;
   padding-right: 32px;
   margin-top: 33px;
+  text-align:end;
   
 }
+#why-us .row .abouticonos { 
+
+  color: #fff;
+  margin-left: -60px;
+  margin-top: 5px;
+
+}
+
+#why-us .col-md-5 .info { 
+  max-width: 33px;
+  margin-left: -50px;
+  margin-top: 40px;
+}
+
+
 
 #why-us .info p {
+  
   margin-left: -32px;
-  padding: 0 0 10px 36px;
+  padding: 0 0 0px 0px;
   line-height: 12px;
   font-size: 12px;
   font-family: 'source code pro', monospace;
-
 }
 
-#whyus .form #sendmessage {
-  color: #007bff;
-  border: 1px solid #007bff;
+
+#why-us .form #sendmessage {
+  color: #6736d9;
+  border: 1px solid #6736d9;
+  ;
   display: none;
   text-align: center;
   padding: 15px;
@@ -664,13 +683,14 @@ h6 {
 
 #why-us .form input,
 #why-us .form textarea {
-  border-radius: 0;
+  border-radius: 20px;
   box-shadow: none;
   font-size: 14px;
+  margin-left: -85px;
 }
 
 #why-us .form button[type="submit"] {
-  background: #007bff;
+  background: #454ad6;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -679,16 +699,22 @@ h6 {
 }
 
 #why-us .form button[type="submit"]:hover {
-  background: #0067d5;
+  background: #2e3192;
   cursor: pointer;
 }
+
+.mapa {
+  margin-top: 28px;
+  margin-left: -19px;
+ }
 #why-us .box {
   padding: 30px;
   position:relative;
   overflow:hidden;
   border-radius: 10px;
-  margin: 0 10px 40px 10px;
+  margin: 0 20px 40px 50px;
   transition: all 0.3s ease-in-out;
+  margin-top: -35px;
 }
 
 
