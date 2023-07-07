@@ -598,12 +598,6 @@ h6 {
 }
 
 .carita { 
-width: 50px;
-
-}
-#why-us .descriptionContact p {
-  font-size: 16px;
-  font-family: "source code pro", monospace;
   color: #ffffff;
   margin: 60px;
   background: #4338a600;
@@ -611,6 +605,82 @@ width: 50px;
   padding-right: 32px;
   margin-top: -5px;
   
+
+}
+#why-us .descriptionContact p {
+  font-size: 16px;
+  font-family: "source code pro", monospace;
+  color: #ffffff;
+  margin: 77px;
+  background: #4338a600;
+  padding: 13px;
+  padding-right: 32px;
+  margin-top: 33px;
+  
+}
+
+#why-us .info p {
+  margin-left: -32px;
+  padding: 0 0 10px 36px;
+  line-height: 12px;
+  font-size: 12px;
+  font-family: 'source code pro', monospace;
+
+}
+
+#whyus .form #sendmessage {
+  color: #007bff;
+  border: 1px solid #007bff;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#why-us .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#why-us .form #sendmessage.show,
+#why-us .form #errormessage.show,
+#why-us .form .show {
+  display: block;
+}
+
+#why-us .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#why-us .form input,
+#why-us .form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+#why-us .form button[type="submit"] {
+  background: #007bff;
+  border: 0;
+  border-radius: 20px;
+  padding: 8px 30px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#why-us .form button[type="submit"]:hover {
+  background: #0067d5;
+  cursor: pointer;
 }
 #why-us .box {
   padding: 30px;
